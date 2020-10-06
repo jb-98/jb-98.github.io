@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+        * {
+                margin: 10px;
+            }
+        #title {
+            font-family: 'Optima', fantasy;
+            font-size: 5em;
+        }
+        #title:hover {
+            color: #010124;
+            background-image: url("https://i.gifer.com/N8i8.gif");
+        }  
+        #title a {
+            text-decoration: none;
+        }
+        #title a:hover {
+            background-image: url("https://i.gifer.com/N8i8.gif");
+        }
+        #classification, th, td {
+            border: 2px solid lightblue;
+            border-collapse: collapse;
+            border-spacing: 20px;
+            text-align: center;
+        }
+        a {
+            color: lightblue;
+        }
+        a:hover {
+            color: #010124;
+            background-color: whitesmoke;
+        }
+        article {
+            display: flex;
+            flex-direction: row;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+        body {
+            color: lightblue;
+            background-color: #010124;
+        }
+        nav {
+            background-image: url("https://i.pinimg.com/originals/5c/de/40/5cde40f665b3ae950b7bdf5c02797b45.jpg");
+            background-attachment: fixed;
+            border-style: ridge;
+            border-width: 10px;
+            border-color: lightblue;
+            margin: 40px;
+            padding: 40px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+        }
+        h2 {
+            color: #010124;
+            background-color: lightblue;
+        }
+        #bookone {
+            color: #d4d4d4;
+            background-color: #0066ff;
+
+        }
+        #booktwo {
+            color: #d1b40e;
+            background-color: #20411a;
+        }
+        #bookthree {
+            color: #be7132;
+            background-color: #470000;
+        }
+        div {
+            width: 500 px;
+            padding: 10px;
+        }
+
+
+    @media screen and (max-width: 950px) {
+        #title:hover {
+            color: #8b0000;
+            background-image: url("https://i.imgur.com/sEhD6QV.gif");
+        } 
+        #title a {
+            text-decoration: none;
+        }
+        #title a:hover {
+            background-image: url("https://i.imgur.com/sEhD6QV.gif");
+        }
+        #classification, th, td {
+            border: 2px solid goldenrod;
+            border-collapse: collapse;
+            border-spacing: 20px;
+            text-align: center;
+        }
+        a{
+            color: goldenrod;
+        }
+        a:hover{
+            color: #8b0000;
+            background-color: black;
+        }
+        body {
+            color: goldenrod;
+            background-color: #8b0000;
+        }
+        nav {
+            background-image: url("https://officechai.com/wp-content/uploads/2016/02/fire.jpg");
+            background-attachment: fixed;
+            border-style: ridge;
+            border-width: 10px;
+            border-color: goldenrod;
+            margin: 40px;
+            padding: 40px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+        }
+        h2 {
+            color: #8b0000;
+            background-color: goldenrod;
+    }
