@@ -1,0 +1,69 @@
+@font-face { font-family: Old Europe; src: url('Old Europe.ttf'); } 
+@font-face { font-family: dpquake; src: url('dpquake_.ttf'); } 
+@font-face { font-family: Black Chancery; src: url('BLKCHCRY.TTF'); } 
+
+* { 
+}
+body {
+    color: white;
+    background-color: black;
+}
+header {
+    text-align: center;
+    line-height: 0.4;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: Old Europe;
+    font-size: 4em;
+}
+header a:hover {
+    color: #ffd900;
+}
+header h3 {
+    font-family: dpquake;
+}
+nav {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: dpquake;
+}
+nav a:hover {
+    color: #ffd900;
+}
+div img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+div {
+    text-align: center;
+}
+div h3 {
+    font-family: Old Europe;
+    font-size: 2em;
+}
+div a {
+    text-decoration: none;
+    color: white;
+    width: 500px;
+}
+div a:hover {
+    color: #cfcfcf;
+}
+form {
+    
+}
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+@font-face { font-family: Old Europe; src: url('Old Europe.ttf'); } 
+@font-face { font-family: dpquake; src: url('dpquake_.ttf'); } 
+@font-face { font-family: Black Chancery; src: url('BLKCHCRY.TTF'); } 
+
+* { 
+}
+body {
+    color: white;
+    background-color: black;
+}
+header {
+    text-align: center;
+    line-height: 0.4;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: Old Europe;
+    font-size: 4em;
+}
+header a:hover {
+    color: #ffd900;
+}
+header h3 {
+    font-family: dpquake;
+}
+nav {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: dpquake;
+}
+nav a:hover {
+    color: #ffd900;
+}
+div img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+div img:hover {
+    opacity: 90%;
+}
+div {
+    text-align: center;
+}
+div a {
+    text-decoration: none;
+    color: white;
+}
+div a:hover {
+    color: #cfcfcf;
+}
+
+.fling-minislide {width: 750px; height: 750px; position: relative; display: block; margin-left: auto; margin-right: auto;}
+.fling-minislide {border-style: ridge; border-width: 10px; border-color: rgb(20, 20, 20);}
+.fling-minislide img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: 100%; object-fit: cover; display: block; margin-left: auto; margin-right: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
