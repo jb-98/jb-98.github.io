@@ -53,8 +53,8 @@ div h3 {
 }
 div img{
     object-fit: cover;
-    width: 750px;
-    height: 750px;
+    width: 400px;
+    height: 400px;
     margin: 40px;
     
 }
